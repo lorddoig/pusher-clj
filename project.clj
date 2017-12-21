@@ -1,4 +1,4 @@
-(defproject com.lorddoig/pusher-clj "0.1.0"
+(defproject com.lorddoig/pusher-clj "0.1.0-alpha1-SNAPSHOT"
   :description "A thin convenience wrapper around the official Pusher Java library."
   :url "http://github.com/lorddoig/pusher-clj"
   :license {:name "MIT"
