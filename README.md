@@ -2,7 +2,7 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.lorddoig/pusher-clj.svg)](https://clojars.org/com.lorddoig/pusher-clj)
 
-A thin convenience wrapper around the official pusher Java library.
+A thin convenience wrapper around the official [pusher.com](https://pusher.com) Java library.
 
 It currently only supports public channels; private channels, presence subscriptions,
 and authorization are still TODO.  Contributions welcome.
