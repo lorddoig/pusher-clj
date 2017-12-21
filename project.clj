@@ -1,4 +1,4 @@
-(defproject com.lorddoig/pusher-clj "0.1.0-SNAPSHOT"
+(defproject com.lorddoig/pusher-clj "0.1.0-alpha1"
   :description "A thin convenience wrapper around the official Pusher Java library."
   :url "http://github.com/lorddoig/pusher-clj"
   :license {:name "MIT"
@@ -6,4 +6,6 @@
   :dependencies [[org.clojure/clojure "1.9.0-RC1"]
                  [com.pusher/pusher-java-client "1.6.0"]]
   :repositories [["releases" {:url "https://clojars.org/repo"
-                              :creds :gpg}]])
+                              :creds :gpg}]]
+  :scm {:name "git"
+        :url "https://github.com/lorddoig/pusher-clj"})
