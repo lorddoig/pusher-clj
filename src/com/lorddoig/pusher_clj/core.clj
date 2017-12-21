@@ -1,8 +1,8 @@
 (ns com.lorddoig.pusher-clj.core
   "A thin convenience wrapper around the official Pusher Java library."
   {:author "Sean Doig <sean@seandoig.com>"}
-  (:require [pusher-clj.connection :as conn]
-            [pusher-clj.util :as u]
+  (:require [com.lorddoig.pusher-clj.connection :as conn]
+            [com.lorddoig.pusher-clj.util :as u]
             [clojure.spec.alpha :as s])
   (:import (com.pusher.client Pusher PusherOptions Authorizer)
            (com.pusher.client.connection ConnectionEventListener
