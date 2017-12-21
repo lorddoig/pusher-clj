@@ -9,7 +9,9 @@ and authorization are still TODO.  Contributions welcome.
 
 Requires Clojure 1.9.0+ as it uses `spec` for data validation.
 
-In a nutshell:
+The client is constructed with a pusher application key and a single callback
+that will handle all messages; this gives flexibility for you to use `core.async`
+or whatever other mechanism you like to process messages.  In a nutshell:
 
 ```clojure
 (let [client (-> (new-client "xxxxxxxxxxxxxxxxx" (fn callback [[msg-type data :as payload]]
@@ -57,10 +59,6 @@ In a nutshell:
     [:pusher-clj.core/msg ["my_channel" "event1" "some-data"]]
     )
 ```
-
-The client is constructed with a pusher application key and a single callback
-that will handle all messages; this gives flexibility for you to use `core.async`
-or whatever other mechanism you like to process messages.
 
 There are various specs defining the shape of the data this library passes around.
 You can use them with `s/conform` and friends, but are especially useful as documentation.
