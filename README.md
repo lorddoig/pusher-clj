@@ -63,7 +63,7 @@ or whatever other mechanism you like to process messages.  In a nutshell:
 There are various specs defining the shape of the data this library passes around.
 You can use them with `s/conform` and friends, but are especially useful as documentation.
 Currently, specs are colocated with the functions/data structures with which they
-are used, see [core.clj](src/pusher_clj/core.clj) for examples.
+are used, see [core.clj](src/com/lorddoig/pusher_clj/core.clj) for examples.
 
 ## Contributing
 
