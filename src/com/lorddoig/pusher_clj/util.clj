@@ -1,4 +1,4 @@
-(ns pusher-clj.util
+(ns com.lorddoig.pusher-clj.util
   (:require [clojure.string :as str]
             [clojure.spec.alpha :as s])
   (:import (clojure.lang IExceptionInfo)))

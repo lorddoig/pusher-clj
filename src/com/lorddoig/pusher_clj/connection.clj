@@ -1,4 +1,4 @@
-(ns pusher-clj.connection
+(ns com.lorddoig.pusher-clj.connection
   {:author "Sean Doig <sean@seandoig.com>"}
   (:require [clojure.spec.alpha :as s])
   (:import (com.pusher.client.connection ConnectionState)))

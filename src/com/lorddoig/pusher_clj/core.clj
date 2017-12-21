@@ -1,4 +1,4 @@
-(ns pusher-clj.core
+(ns com.lorddoig.pusher-clj.core
   "A thin convenience wrapper around the official Pusher Java library."
   {:author "Sean Doig <sean@seandoig.com>"}
   (:require [pusher-clj.connection :as conn]
